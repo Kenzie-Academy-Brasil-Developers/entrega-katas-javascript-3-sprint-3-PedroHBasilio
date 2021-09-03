@@ -29,11 +29,12 @@ function kata3() {
 
 function kata4() {
     let arr = []
-    for(let i = -25; i <= 1; i++){
+    for(let i = -25; i <= -1; i++){
         arr.push(i)
     }
     return arr    
 }
+
 
 
 function kata5() {
@@ -48,7 +49,7 @@ function kata5() {
 
 function kata6() {
     let arr = []
-    for(let i = 0; i <= 100; i++){
+    for(let i = 1; i <= 100; i++){
         if(i % 3 === 0){
             arr.push(i)
         }
@@ -59,7 +60,7 @@ function kata6() {
 
 function kata7() {
     let arr = []
-    for(let i = 0; i <= 100; i++){
+    for(let i = 1; i <= 100; i++){
         if(i % 7 === 0){
             arr.push(i)
         }
@@ -70,7 +71,7 @@ function kata7() {
 
 function kata8() {
     let arr = []
-    for(let i = 100; i >= 0; i--){
+    for(let i = 100; i >= 1; i--){
         if(i % 3 === 0 || i % 7 === 0){
             arr.push(i)
         }
@@ -155,7 +156,7 @@ function kata16() {
 
 
 function kata17() {
-    let menor = sampleArray[3]
+    let menor = sampleArray[0]
     for(let i = 0; i < sampleArray.length; i++){
         if(menor < sampleArray[i]){
             menor = sampleArray[i]
@@ -166,7 +167,7 @@ function kata17() {
 
 
 function kata18() {
-    let maior = sampleArray[3]
+    let maior = sampleArray[0]
     for(let i = 0; i < sampleArray.length; i++){
         if(maior > sampleArray[i]){
             maior = sampleArray[i]
@@ -246,7 +247,7 @@ kataBonus2()
        
 
 function kataBonus3() {
-    for(let i = 0; i <= 19; i ++){
+    for(let i = 0; i < sampleArray.length; i ++){
 
         const parentDiv = document.getElementById("bonus3")
         const newElement = document.createElement("div")   
@@ -262,7 +263,7 @@ function kataBonus3() {
 kataBonus3()
 
 function kataBonus4() {
-    for(let i = 0; i <= 19; i ++){
+    for(let i = 0; i < sampleArray.length; i ++){
 
         const parentDiv = document.getElementById("bonus4")
         const newElement = document.createElement("div")   
@@ -283,7 +284,7 @@ function kataBonus4() {
 kataBonus4()
 
 function kataBonus5() {
-    for(let i = 0; i <= 19; i ++){
+    for(let i = 0; i < sampleArray.length; i ++){
 
         const parentDiv = document.getElementById("bonus5")
         const newElement = document.createElement("div")   
